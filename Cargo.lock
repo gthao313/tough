@@ -3121,6 +3121,7 @@ version = "0.13.0"
 dependencies = [
  "aws-config",
  "aws-sdk-ssm",
+ "aws-smithy-experimental",
  "snafu",
  "tokio",
  "tough",
