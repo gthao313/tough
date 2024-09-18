@@ -85,6 +85,18 @@ skip = [
     { name = "windows_x86_64_gnu", version = "=0.48" },
     { name = "windows_x86_64_gnullvm", version = "=0.48" },
     { name = "windows_x86_64_msvc", version = "=0.48" },
+    # several dependencies are using an old version of hyper 0
+    { name = "h2", version = "=0.3.26" },
+    { name = "hyper", version = "=0.14.30" },
+    { name = "hyper-rustls", version = "=0.24.2" },
+    { name = "rustls", version = "=0.21.12" },
+    { name = "rustls-native-certs", version = "=0.6.3" },
+    { name = "rustls-pemfile", version = "=1.0.4" },
+    { name = "rustls-webpki", version = "=0.101.7" },
+    { name = "tokio-rustls", version = "=0.24.1" },
+    { name = "windows-sys", version = "=0.52.0" },
+    { name = "windows-sys", version = "=0.52.0" },
+
 ]
 
 skip-tree = [
